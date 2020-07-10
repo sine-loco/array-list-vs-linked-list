@@ -1,4 +1,4 @@
-package ru.snm.misc;
+package ru.snm.misc.lists;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
@@ -7,6 +7,7 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -41,7 +42,6 @@ public class InsertByteInMiddle {
         arrayList = new ArrayList<>();
         linkedList = new LinkedList<>();
     }
-
 
     @Benchmark
     public void testArrayList() {

@@ -1,6 +1,6 @@
-# array-list-vs-linked-list
+# mock-interview-tasks
 
-ArrayList vs LinkedList performance.                               
+1) ArrayList vs LinkedList performance.                               
 Idea origin: https://habr.com/ru/sandbox/136094/
 
 Run 'main' method and read console output :) 
